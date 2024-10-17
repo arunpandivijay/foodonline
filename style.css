@@ -1,0 +1,113 @@
+
+.foodimg {
+    background-image: url(./food.jpg);
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #ff897352;
+    background-blend-mode: overlay;
+
+}
+.log{
+
+    gap: 20px;
+    text-align: right;
+    padding-right: 60px;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    
+}
+.create{
+    border: 2px solid white;
+    background-color: blue;
+    color: rgb(231, 226, 226);
+    height: 30px;
+    width: 145px;
+    border-radius: 6px;
+}
+
+.cards
+{
+ background-color: rgb(255, 255, 255);
+ display: flex;
+ justify-content: space-between;
+ padding: 10px 12%;
+ flex-wrap: wrap;
+ gap: 25px;
+ padding: 20px 12%;
+}
+.card1{
+    width: 30%;
+    height: 115px;
+    background-color: #f1f1f1;
+    display: flex;
+    box-shadow: 5px 5px 18px rgb(0 0 0 / 26%);
+    align-items: center;
+    gap: 15px;
+
+
+}
+.cardimg{
+
+    height: 100%;
+    width: 35%;
+}
+.cardimg1{
+
+    height: 100%;
+    width: 100%;
+}
+.subhead{
+    font-weight: bold;
+    font-size: 20px;
+}
+.pera{
+    margin: 0;
+    font-size: 12px;
+    color: #a1a1a1;
+} 
+ .heding{
+    font-size: 19px;
+    color: white;
+    text-align: center;
+ 
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; 
+}
+.chef{
+    width: 100px;
+    padding-top: 50px;
+}
+.chef1{
+    text-align: center;
+}
+.searchfood{
+    width: 200px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.searchbox{
+    width: 350px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.quick{
+    font-size: 35px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.meal{
+    font-size: 18px;
+    color: #a1a1a1;
+    padding-left: 8px;
+
+}
